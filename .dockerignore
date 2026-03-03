@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.Python
+
+# Virtual Environment
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Test data
+input_data/
+output_data/
+submission/
+
+# Documentation (不需要打包进Docker)
+*.md
+海淀街道比赛——结果提交指导手册.docx
+
+# Scripts (不需要打包进Docker)
+test_local.bat
+test_local.sh
+build_docker.bat
+build_docker.sh
+setup.bat
+setup.sh
+run.bat
+run.sh
+
+# GUI version (Docker中不需要)
+jump_rope_gui.py
+check_environment.py
+extract_docx.py
+
+# Git
+.git/
+.gitignore
+
+# Other
+*.log
+debug_*.py
+test_*.py
+examples.py
+simple_jump_detector.py
+
+

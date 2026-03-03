@@ -1,0 +1,34 @@
+# Docker版本依赖（不包含GUI相关库）
+# 用于比赛提交，减小镜像大小
+# 注意：PyTorch CPU版本在Dockerfile中单独安装
+
+# YOLO目标检测
+ultralytics>=8.0.0
+
+# 计算机视觉
+opencv-python-headless>=4.8.0
+
+# 数值计算
+numpy>=1.24.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
